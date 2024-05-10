@@ -27,10 +27,7 @@ double rp;
   imprimirResultados(rs,rd);
   
   
-  
-  
   return 0;
-  
   
   
 }
