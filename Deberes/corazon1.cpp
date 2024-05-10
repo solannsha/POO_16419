@@ -6,8 +6,15 @@ float division(int a, float b){
 }
 
 void imprimirResultados(bool sw, const char* valor) {
-    cout << "Verificaci�n: " << (sw ? "verdadero" : "falso") << endl;
+    cout << "Verificación: " << (sw ? "verdadero" : "falso") << endl;
     cout << "Valor: " << valor << endl;
+}
+// Grupo 2 ingresa la Función de proceso
+
+double proceso(int rs, float rd, int a, int b) {
+
+    return rs  rd  a * b;
+
 }
 int main() {
 int rs;
