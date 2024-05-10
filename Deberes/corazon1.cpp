@@ -15,7 +15,7 @@ float division(int a, float b){
 }
 
 void imprimirResultados(int rs,bool sw, const char* valor) {
-    cout<<"La suma es Suma:"<<endl;
+    cout<<"La suma es:"<<rs<<endl;
     cout << "Verificación: " << (sw ? "verdadero" : "falso") << endl;
     cout << "Valor: " << valor << endl;
 }
