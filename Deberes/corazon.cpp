@@ -39,13 +39,20 @@ bool verificar(float num1){
 		return true;
 	}
 }
+<<<<<<< HEAD
 
 >>>>>>> 9bdccfa3b84d87f3ed5d1acf73a89fea9f97331c
 int main() {
 int rs;
 // Función dividir 
+=======
+// Grupo 2 Agrega Función dividir 
+>>>>>>> 0a391c3e3d17b9e8349b8ad34375a3e574dc8a48
 float division(int a, int b) {
     return (float)a / b;
+}
+int main() {
+int rs;
 bool sw;
 char valor [20];
 double rp;
