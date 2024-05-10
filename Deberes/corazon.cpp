@@ -3,13 +3,14 @@
 #include <iostream>;
 using namespace std;
 
+double proceso(int a, float b, double c);
 int suma(int a, int b){
   return a+b;
 } 
 
 int main() {
 int rs;
-float rd;
+float rd=5.1;
 bool sw;
 char valor [20];
 double rp;
@@ -25,5 +26,8 @@ double rp;
   cout<<sw<<endl;
   cout<<valor<<endl;
   
-  
+}
+
+double proceso(int a, float b, double c) {
+    return (a + b) / c;
 }
