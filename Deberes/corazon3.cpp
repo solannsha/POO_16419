@@ -4,13 +4,13 @@ using namespace std;
 int suma(int a, int b) {
 	return a + b;
 }
+
 float division(int a, int b){
 	return a/b;
 }
 void imprimirResultados(int rs, float rd) {
   cout << "Suma: " << rs << endl;
   cout << "Division: " << rd << endl;
-  
 }
 int main() {
 int rs;
@@ -25,6 +25,8 @@ double rp;
   imprimirResultados(rs, rd);
 
   return 0;
+  
+  
   
   
 }
