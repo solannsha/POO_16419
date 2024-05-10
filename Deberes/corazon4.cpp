@@ -1,6 +1,10 @@
 #include <iostream>;
 using namespace std;
 
+//grupo 3 agrega funcion int 
+int suma(int x, int y){
+	return x+y;
+}
 int main() {
 int rs(x,y) ;
 int x=25, y=30;
