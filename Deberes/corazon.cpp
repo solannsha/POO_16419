@@ -57,6 +57,7 @@ float division(int a, int b) {
 }
 int main() {
 int rs;
+float rd;
 bool sw;
 char valor [20];
 double rp;

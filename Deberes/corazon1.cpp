@@ -14,13 +14,13 @@ void imprimirResultados(bool sw, const char* valor) {
     cout << "Verificación: " << (sw ? "verdadero" : "falso") << endl;
     cout << "Valor: " << valor << endl;
 }
-// Grupo 2 ingresa la Función de proceso double
 
-double proceso(int rs, float rd, int a, int b) {
 
-    return rs  rd  a * b;
-
+// Grupo 2 ingresa la Función para verificar el resultado del proceso
+bool verificar(double rp) {
+    return rp > 100;
 }
+
 int main() {
 int rs;
 float rd;

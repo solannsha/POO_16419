@@ -19,10 +19,6 @@ void imprimirResultados(int rs) {
   cout << "Suma: " << rs << endl;
   cout<<"division"<<rd<<endl;
 }
-//Grupo 2 agraga Función para verificar el resultado del proceso
-bool verificar(double rp) {
-    return rp > 100;
-}
 
 
 int main() {

@@ -10,6 +10,11 @@ int suma(int a, int b) {
 	return a + b;
 }
 
+// grupo 2 agrga la Función de proceso
+double proceso(int rs, float rd, int a, int b) {
+    return rs * rd * a * b;
+}
+
 int main() {
 int rs;
 float rd;
