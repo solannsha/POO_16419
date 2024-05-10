@@ -6,6 +6,11 @@ using namespace std;
 int suma(int a, int b){
   return a+b;
 } 
+//grupo 3 agrega funcion float
+float division(int a, float b){
+  return a/b;
+}
+
 
 int main() {
 int rs;
