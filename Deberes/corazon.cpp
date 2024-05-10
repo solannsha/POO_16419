@@ -3,6 +3,17 @@
 #include <iostream>;
 using namespace std;
 
+bool verificar(double x) {
+    return x > 10;
+}
+
+void imprimirResultados(bool sw) {
+    if (sw) {
+        cout << "Verificación: verdadero" << endl;
+    } else {
+        cout << "Verificación: falso" << endl;
+    }
+}
 int main() {
 int rs;
 float rd;
@@ -20,6 +31,13 @@ double rp;
   cout<<rp<<endl;
   cout<<sw<<endl;
   cout<<valor<<endl;
+  
+  sw = verificar(rp);
+
+    
+    imprimirResultados(sw);
+
+    return 0;
   
   
 }
