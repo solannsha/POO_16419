@@ -1,3 +1,8 @@
+/* UNIVERSIDAD DE LAS FUERZAS ARMADAS "ESPE"
+PROBLEMA: MAIN CON FUNCIONES Y SUBIR A GITHUB
+AUTOR: NRC16419
+FECHA DE CREACION: 09/05/2024
+FECHA DE MODIFICACION: 10/05/2024*/
 #include <iostream>;
 using namespace std;
 
@@ -25,6 +30,6 @@ double rp;
   cout<<rp<<endl;
   cout<<sw<<endl;
   cout<<valor<<endl;
-  
-  
+Â Â 
+Â Â 
 }

@@ -1,5 +1,9 @@
 //Corazon 1
-//UNIVERSIDAD DE LAS FUERZAS ARMADAS
+/* UNIVERSIDAD DE LAS FUERZAS ARMADAS "ESPE"
+PROBLEMA: MAIN CON FUNCIONES Y SUBIR A GITHUB
+AUTOR: NRC16419
+FECHA DE CREACION: 09/05/2024
+FECHA DE MODIFICACION: 10/05/2024*/
 #include <iostream>;
 using namespace std;
 
@@ -10,9 +14,9 @@ bool verificar(double x) {
 
 void imprimirResultados(bool sw) {
     if (sw) {
-        cout << "Verificaci髇: verdadero" << endl;
+        cout << "Verificaci贸n: verdadero" << endl;
     } else {
-        cout << "Verificaci髇: falso" << endl;
+        cout << "Verificaci贸n: falso" << endl;
     }
 }
 =======
@@ -44,9 +48,9 @@ bool verificar(float num1){
 >>>>>>> 9bdccfa3b84d87f3ed5d1acf73a89fea9f97331c
 int main() {
 int rs;
-// Funci髇 dividir 
+// Funci贸n dividir 
 =======
-// Grupo 2 Agrega Funci髇 dividir 
+// Grupo 2 Agrega Funci贸n dividir 
 >>>>>>> 0a391c3e3d17b9e8349b8ad34375a3e574dc8a48
 float division(int a, int b) {
     return (float)a / b;

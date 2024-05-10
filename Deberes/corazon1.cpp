@@ -1,3 +1,8 @@
+/* UNIVERSIDAD DE LAS FUERZAS ARMADAS "ESPE"
+PROBLEMA: MAIN CON FUNCIONES Y SUBIR A GITHUB
+AUTOR: NRC16419
+FECHA DE CREACION: 09/05/2024
+FECHA DE MODIFICACION: 10/05/2024*/
 #include <iostream>;
 using namespace std;
 
@@ -9,7 +14,7 @@ void imprimirResultados(bool sw, const char* valor) {
     cout << "Verificación: " << (sw ? "verdadero" : "falso") << endl;
     cout << "Valor: " << valor << endl;
 }
-// Grupo 2 ingresa la Función de proceso
+// Grupo 2 ingresa la Función de proceso double
 
 double proceso(int rs, float rd, int a, int b) {
 
