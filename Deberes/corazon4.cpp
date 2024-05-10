@@ -1,6 +1,16 @@
 #include <iostream>;
 using namespace std;
 
+
+
+
+
+
+float division(int a, float b) {
+	return a / b;
+}
+
+
 int main() {
 int rs;
 float rd;
