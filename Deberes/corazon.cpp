@@ -26,12 +26,12 @@ bool verificar(float num1){
 		return true;
 	}
 }
-
-int main() {
-int rs;
-// Función dividir 
+// Grupo 2 Agrega Función dividir 
 float division(int a, int b) {
     return (float)a / b;
+}
+int main() {
+int rs;
 bool sw;
 char valor [20];
 double rp;
