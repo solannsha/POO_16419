@@ -19,6 +19,7 @@ double proceso(int rs, float rd, int a, int b) {
     return rs * rd * a * b;
 }
 
+//Grupo 5 Funcion verificar
 bool verificarDivision(float a) {
     return a > M_PI;
 }
