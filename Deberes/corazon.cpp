@@ -3,6 +3,7 @@
 #include <iostream>;
 using namespace std;
 
+<<<<<<< HEAD
 bool verificar(double x) {
     return x > 10;
 }
@@ -14,9 +15,35 @@ void imprimirResultados(bool sw) {
         cout << "Verificación: falso" << endl;
     }
 }
+=======
+//grupo 5 funcion double 
+double proceso(int a, float b, double c);
+int suma(int a, int b){
+  return a+b;
+} 
+//grupo 3 agrega funcion float
+float division(int a, float b){
+  return a/b;
+}
+
+
+// Grupo 3 funcion booleana
+bool verificar(float num1){
+	
+	int num2;
+	num2 = num1;
+	
+	if((num1 - num2) == 0){
+		return false;
+	}else{
+		return true;
+	}
+}
+
+>>>>>>> 9bdccfa3b84d87f3ed5d1acf73a89fea9f97331c
 int main() {
 int rs;
-float rd;
+float rd=5.1;
 bool sw;
 char valor [20];
 double rp;
@@ -32,6 +59,7 @@ double rp;
   cout<<sw<<endl;
   cout<<valor<<endl;
   
+<<<<<<< HEAD
   sw = verificar(rp);
 
     
@@ -40,4 +68,10 @@ double rp;
     return 0;
   
   
+=======
+}
+
+double proceso(int a, float b, double c) {
+    return (a + b) / c;
+>>>>>>> 9bdccfa3b84d87f3ed5d1acf73a89fea9f97331c
 }

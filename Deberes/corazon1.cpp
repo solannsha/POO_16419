@@ -1,19 +1,14 @@
 #include <iostream>;
 using namespace std;
 
-/*Funcion Booleana Grupo 2 */
-bool verificar(float num1){
-	
-	int num2;
-	num2 = num1;
-	
-	if((num1 - num2) == 0){
-		return false;
-	}else{
-		return true;
-	}
+float division(int a, float b){
+  return a/b;
 }
 
+void imprimirResultados(bool sw, const char* valor) {
+    cout << "Verificación: " << (sw ? "verdadero" : "falso") << endl;
+    cout << "Valor: " << valor << endl;
+}
 int main() {
 int rs;
 float rd;
@@ -24,13 +19,20 @@ double rp;
   rd=division(5,6);
   rp=proceso(rs,rd,3,33);
   sw=verificar(rp);
-  string datos_str = "15 suma"; 
-  strcpy(valor, datos_str.c_str()); 
+  string rp_str = doubleToString(rp);
+  string datos_str = rp_str + " proceso";
+   strncpy(valor, datos_str.c_str(), sizeof(valor)); 
+   
+   valor[sizeof(valor) - 1] = '\0';
+  
   cout<<rs<<endl;
   cout<<rd<<endl;
   cout<<rp<<endl;
-  cout<<sw<<endl;
+  cout << boolalpha << sw << endl; 
   cout<<valor<<endl;
+  imprimirResultados(sw, valor);
+
+    return 0;
   
   
 }
