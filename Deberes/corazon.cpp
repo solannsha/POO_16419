@@ -12,6 +12,19 @@ float division(int a, float b){
 }
 
 
+// Grupo 3 funcion booleana
+bool verificar(float num1){
+	
+	int num2;
+	num2 = num1;
+	
+	if((num1 - num2) == 0){
+		return false;
+	}else{
+		return true;
+	}
+}
+
 int main() {
 int rs;
 float rd;
