@@ -2,7 +2,7 @@
 using namespace std;
 
 double proceso(int rs, float rd, int a, int b);
-//G4: 3era Func, 5to Programa
+//G4: Func 3
 double proceso(int rs, float rd, int a, int b){
 	double resp1, resp2;
 	if (rd!=0){
