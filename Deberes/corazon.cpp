@@ -3,6 +3,19 @@
 #include <iostream>;
 using namespace std;
 
+<<<<<<< HEAD
+bool verificar(double x) {
+    return x > 10;
+}
+
+void imprimirResultados(bool sw) {
+    if (sw) {
+        cout << "Verificación: verdadero" << endl;
+    } else {
+        cout << "Verificación: falso" << endl;
+    }
+}
+=======
 //grupo 5 funcion double 
 double proceso(int a, float b, double c);
 int suma(int a, int b){
@@ -26,7 +39,15 @@ bool verificar(float num1){
 		return true;
 	}
 }
+<<<<<<< HEAD
+
+>>>>>>> 9bdccfa3b84d87f3ed5d1acf73a89fea9f97331c
+int main() {
+int rs;
+// Función dividir 
+=======
 // Grupo 2 Agrega Función dividir 
+>>>>>>> 0a391c3e3d17b9e8349b8ad34375a3e574dc8a48
 float division(int a, int b) {
     return (float)a / b;
 }
@@ -47,8 +68,19 @@ double rp;
   cout<<sw<<endl;
   cout<<valor<<endl;
   
+<<<<<<< HEAD
+  sw = verificar(rp);
+
+    
+    imprimirResultados(sw);
+
+    return 0;
+  
+  
+=======
 }
 
 double proceso(int a, float b, double c) {
     return (a + b) / c;
+>>>>>>> 9bdccfa3b84d87f3ed5d1acf73a89fea9f97331c
 }
