@@ -4,7 +4,7 @@ AUTOR: NRC16419
 FECHA DE CREACION: 09/05/2024
 FECHA DE MODIFICACION: 10/05/2024*/
 #include <iostream>;
-#include <string>
+#include <cstring>
 using namespace std;
 
 //Grupo 5 Funcion suma

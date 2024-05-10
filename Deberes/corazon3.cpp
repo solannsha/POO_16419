@@ -5,6 +5,7 @@ FECHA DE CREACION: 09/05/2024
 FECHA DE MODIFICACION: 10/05/2024*/
 #include <iostream>
 #include <cmath>
+#include <cstring>
 using namespace std;
 
 int suma(int a, int b) {
