@@ -1,6 +1,10 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
+
+//funcion division grupo 5
+float division(float a,float b);
 
 int suma(int a, int b) {
   return a + b;
@@ -8,6 +12,7 @@ int suma(int a, int b) {
 
 void imprimirResultados(int rs) {
   cout << "Suma: " << rs << endl;
+  cout<<"division"<<rd<<endl;
 }
 
 int main() {
@@ -18,7 +23,14 @@ int main() {
   double rp;
 
   rs = suma(5, 6);
+  rd= division(7.8,8.9);
   imprimirResultados(rs);
+  imprimirResultados(rd);
+  
 
   return 0;
+}
+
+float division(float a,float b){
+  return a/b;
 }
