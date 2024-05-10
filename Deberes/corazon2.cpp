@@ -25,6 +25,11 @@ void manejarCadena(char* valor, const string& datos_str) {
     strcpy(valor, datos_str.c_str());
 }
 
+//Grupo 1 agrega funcion proceso
+double proceso(int a, float b, double c) {
+	return (a * b) / c;
+}
+
 int main() {
   int rs;
   float rd;
@@ -35,12 +40,11 @@ int main() {
   rs = suma(5, 6);
   rd= division(7.8,8.9);
   imprimirResultados(rs,rd);
+  rp=proceso(rs,rd,8.30120490123);
   string datos_str= ("15 Suma");
   manejarCadena(valor, datos_str);
   cout << valor << endl;
-  
 
-  
   return 0;
 }
 
