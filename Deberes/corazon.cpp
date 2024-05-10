@@ -43,7 +43,9 @@ bool verificar(float num1){
 >>>>>>> 9bdccfa3b84d87f3ed5d1acf73a89fea9f97331c
 int main() {
 int rs;
-float rd=5.1;
+// Función dividir 
+float division(int a, int b) {
+    return (float)a / b;
 bool sw;
 char valor [20];
 double rp;
