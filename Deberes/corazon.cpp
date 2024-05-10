@@ -7,21 +7,22 @@ FECHA DE MODIFICACION: 10/05/2024*/
 #include <iostream>;
 using namespace std;
 
-<<<<<<< HEAD
 bool verificar(double x) {
     return x > 10;
 }
 
-void imprimirResultados(bool sw) {
+void imprimirResultados(bool sw,double rp) {
     if (sw) {
         cout << "Verificación: verdadero" << endl;
     } else {
         cout << "Verificación: falso" << endl;
     }
+    cout<<"El resultado del proceso es:"<<rp<<endl;
 }
-=======
-//grupo 5 funcion double 
+
+//Grupo 5 funcion double 
 double proceso(int a, float b, double c);
+
 int suma(int a, int b){
   return a+b;
 } 
@@ -43,17 +44,16 @@ bool verificar(float num1){
 		return true;
 	}
 }
-<<<<<<< HEAD
 
->>>>>>> 9bdccfa3b84d87f3ed5d1acf73a89fea9f97331c
+
+
 int main() {
 int rs;
 // Función dividir 
-=======
+
 // Grupo 2 Agrega Función dividir 
->>>>>>> 0a391c3e3d17b9e8349b8ad34375a3e574dc8a48
-float division(int a, int b) {
-    return (float)a / b;
+float division(int a, int b){
+    return a / b;
 }
 int main() {
 int rs;
@@ -61,9 +61,9 @@ float rd;
 bool sw;
 char valor [20];
 double rp;
-  rs=suma(5,6);
-  rd=division(5,6);
-  rp=proceso(rs,rd,3,33);
+  rs=suma(4,7);
+  rd=division(5.7,6.9);
+  rp=proceso(rs,rd,8,1647892);
   sw=verificar(rp);
   string datos_str = "15 suma"; 
   strcpy(valor, datos_str.c_str()); 
@@ -72,20 +72,14 @@ double rp;
   cout<<rp<<endl;
   cout<<sw<<endl;
   cout<<valor<<endl;
-  
-<<<<<<< HEAD
-  sw = verificar(rp);
+  imprimirResultados(sw,rp);
 
-    
-    imprimirResultados(sw);
-
-    return 0;
+  return 0;
   
   
-=======
+}
 }
 
 double proceso(int a, float b, double c) {
     return (a + b) / c;
->>>>>>> 9bdccfa3b84d87f3ed5d1acf73a89fea9f97331c
 }
