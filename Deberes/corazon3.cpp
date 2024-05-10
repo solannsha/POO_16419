@@ -15,7 +15,7 @@ int suma(int a, int b) {
 float division(int a, int b) {
     return a / b;
 }
-
+//grupo 2 agrega 5ta funcion
 double proceso(int rs, float rd, int a, int b) {
     return rs * rd * a * b;
 }

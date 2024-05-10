@@ -12,7 +12,7 @@ using namespace std;
 //Grupo 5 Funcion String 
 string cadenaPrueba(string nombre);
 
-
+//grupo 2 añade la primer funcion 
 int suma(int a, int b) {
     return a + b;
 }
