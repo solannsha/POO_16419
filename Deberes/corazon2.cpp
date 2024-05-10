@@ -8,16 +8,16 @@ FECHA DE MODIFICACION: 10/05/2024*/
 
 using namespace std;
 
-//funcion division grupo 5
+//Grupo 5 Funcion Division
 float division(float a,float b);
 
 int suma(int a, int b) {
   return a + b;
 }
 
-void imprimirResultados(int rs) {
+void imprimirResultados(int rs,float rd) {
   cout << "Suma: " << rs << endl;
-  cout<<"division"<<rd<<endl;
+  cout<<"la division es:"<<rd<<endl;
 }
 
 
@@ -30,8 +30,7 @@ int main() {
 
   rs = suma(5, 6);
   rd= division(7.8,8.9);
-  imprimirResultados(rs);
-  imprimirResultados(rd);
+  imprimirResultados(rs,rd);
   
 
   return 0;
