@@ -1,6 +1,7 @@
 #include <iostream>;
 using namespace std;
 
+
 int suma(int a, int b) {
 	return a + b;
 }
@@ -16,6 +17,7 @@ int main() {
 int rs;
 float rd;
 bool sw;
+
 char valor [20];
 double rp;
   rs=suma(5,6);
@@ -26,7 +28,6 @@ double rp;
   
   
   return 0;
-  
   
   
   

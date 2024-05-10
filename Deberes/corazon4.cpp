@@ -2,6 +2,7 @@
 using namespace std;
 
 //grupo 3 agrega funcion int 
+//Grupo 2 agrega funcion Suma
 int suma(int x, int y){
 	return x+y;
 }
