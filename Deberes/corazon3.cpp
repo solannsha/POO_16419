@@ -22,7 +22,7 @@ double rp;
   rs = suma(5, 6);
   rd = 5.0 / 6; 
 
-  imprimirResultados(rs, rd);
+  imprimirResultados(rs,rd);
 
   return 0;
   
