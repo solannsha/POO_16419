@@ -7,6 +7,24 @@ double proceso(int a, float b, double c);
 int suma(int a, int b){
   return a+b;
 } 
+//grupo 3 agrega funcion float
+float division(int a, float b){
+  return a/b;
+}
+
+
+// Grupo 3 funcion booleana
+bool verificar(float num1){
+	
+	int num2;
+	num2 = num1;
+	
+	if((num1 - num2) == 0){
+		return false;
+	}else{
+		return true;
+	}
+}
 
 int main() {
 int rs;
