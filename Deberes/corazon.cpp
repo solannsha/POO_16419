@@ -3,6 +3,7 @@
 #include <iostream>;
 using namespace std;
 
+//grupo 5 funcion double 
 double proceso(int a, float b, double c);
 int suma(int a, int b){
   return a+b;
