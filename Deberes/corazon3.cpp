@@ -10,6 +10,7 @@ float division(int a, int b){
 void imprimirResultados(int rs, float rd) {
   cout << "Suma: " << rs << endl;
   cout << "Division: " << rd << endl;
+  
 }
 int main() {
 int rs;
