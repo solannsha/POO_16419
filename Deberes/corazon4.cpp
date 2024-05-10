@@ -19,7 +19,7 @@ double rp;
   string datos_str = "15 suma"; 
   strcpy(valor, datos_str.c_str()); 
   int respusuma=rs(x,y);
- std::cout << "La suma de " << num1 << " y " << num2 << " es " << resultadoSuma << std::endl;
+ std::cout << "La suma de " << num1 << " y " << num2 << " es " << respusuma << std::endl;
   cout<<rd<<endl;
   cout<<rp<<endl;
   cout<<sw<<endl;
