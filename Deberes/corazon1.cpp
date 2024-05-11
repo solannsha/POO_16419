@@ -19,7 +19,18 @@ void imprimirResultados(int rs,bool sw, const char* valor) {
     cout << "Verificación: " << (sw ? "verdadero" : "falso") << endl;
     cout << "Valor: " << valor << endl;
 }
+// Grupo 3 añade la función proceso
+double proceso(int a , float b , double c){
 
+    double suma = a + b + c;
+
+    double division = a / b;
+
+    double resultado = suma;
+
+    double resultado = division;
+
+    return resultado;
 
 // Grupo 2 ingresa la Función para verificar el resultado del proceso
 bool verificar(double rp) {
@@ -38,19 +49,19 @@ double rp;
   sw=verificar(rp);
   string rp_str = doubleToString(rp);
   string datos_str = rp_str + " proceso";
-  strncpy(valor, datos_str.c_str(), sizeof(valor));  
+  strncpy(valor, datos_str.c_str(), sizeof(valor));
   valor[sizeof(valor) - 1] = '\0';
-  
+
   cout<<rs<<endl;
   cout<<rd<<endl;
   cout<<rp<<endl;
-  cout << boolalpha << sw << endl; 
+  cout << boolalpha << sw << endl;
   cout<<valor<<endl;
   imprimirResultados(rs,sw, valor);
 
     return 0;
-  
-  
+
+
 }
 
 int suma(int a, int b){
