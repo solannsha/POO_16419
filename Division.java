@@ -1,3 +1,4 @@
+import java.io.FileInputStream;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -22,6 +23,15 @@ public class Division {
             System.out.println("¡Entrada inválida! Ingrese un número entero.");
         } finally {
             sc.close();
+        }
+
+        //MIGUEL ANGEL CHACON - IOFileNotFoundException
+        try {
+            FileInputStream ins = new FileInputStream("./Archivo.txt");
+            System.out.println("Archivo Encontrado");
+        } catch (Exception ex) {
+            System.out.println("Archivo no encontrado");
+            System.out.println(ex.getClass());
         }
     }
 }
