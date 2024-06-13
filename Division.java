@@ -25,7 +25,7 @@ public class Division {
             sc.close();
         }
 
-        //MIGUEL ANGEL CHACON - IOFileNotFoundException
+        //MIGUEL ANGEL VILLACRES - IOFileNotFoundException
         try {
             FileInputStream ins = new FileInputStream("./Archivo.txt");
             System.out.println("Archivo Encontrado");
