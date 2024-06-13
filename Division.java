@@ -33,5 +33,18 @@ public class Division {
             System.out.println("Archivo no encontrado");
             System.out.println(ex.getClass());
         }
+
+        //IVAN MANTILLA - ArrayIndexOutOfBoundsException
+        try {
+            System.out.println();
+            int[] vector = {1, 2, 3,4,5};
+            System.out.println(vector[7]);
+        } 
+        catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("El indice del arreglo no esta dentro de los limites");
+        }
+        finally{
+            System.out.println("El arreglo solo tiene 5 elementos, los cuales van desde el 0 al 3, el indice asignado es 7");
+        }
     }
 }
