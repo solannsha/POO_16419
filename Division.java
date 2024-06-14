@@ -47,6 +47,14 @@ public class Division {
         finally{
             System.out.println("El arreglo solo tiene 5 elementos, los cuales van desde el 0 al 3, el indice asignado es 7");
         }
+        // JORGE OSCULLO - NullPointerException | ArrayIndexOutOfBoundsException
+        try{
+            int[] numeros= {1,2,3};
+            int numero=numeros[4];
+            System.out.println("El resultado es"+numero);
+        } catch (NullPointerException | ArrayIndexOutOfBoundsException ex){
+        Systeum.out.println("El error es nulo");      
+        }
         // ARIAN CALERO - NoSuchElementException
         try {
         Scanner scanner = new Scanner(System.in);
