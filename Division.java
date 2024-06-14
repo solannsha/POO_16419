@@ -60,5 +60,22 @@ public class Division {
         } catch (NoSuchElementException ex) {
        System.out.println("No hay más elementos para leer en la entrada.");
 }
+
+/**
+ * Excepcion: NumberFormatException
+ * @author Kevin Ruales
+*/
+        try {
+            System.out.print("Ingrese un numero decimal para la operacion compuesta: ");
+            double dec = Double.parseDouble(sc.nextLine());
+
+            double resp = (35-dec)/(5-3*(6 + numerador*3));
+            System.out.println("La respuesta es: " + resp);
+        } catch (NumberFormatException e) {
+            System.out.println("[Error]: El dato ingresado no es válido..");
+        } finally {
+            sc.close();
+        }
+
     }
 }
