@@ -24,6 +24,7 @@ public class Division {
         } finally {
             sc.close();
         }
+    
 
         //MIGUEL ANGEL VILLACRES - IOFileNotFoundException
         try {
@@ -46,5 +47,18 @@ public class Division {
         finally{
             System.out.println("El arreglo solo tiene 5 elementos, los cuales van desde el 0 al 3, el indice asignado es 7");
         }
+        // ARIAN CALERO - NoSuchElementException
+        try {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese un número: ");
+        int numero = scanner.nextInt();
+        System.out.println("Ingrese otro número: ");
+        int otroNumero = scanner.nextInt();
+        System.out.println("Ingrese otro número: ");
+        int tercerNumero = scanner.nextInt();
+    
+        } catch (NoSuchElementException ex) {
+       System.out.println("No hay más elementos para leer en la entrada.");
+}
     }
 }
