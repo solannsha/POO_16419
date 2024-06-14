@@ -1,5 +1,6 @@
 import java.io.FileInputStream;
 import java.util.InputMismatchException;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class Division {
@@ -96,6 +97,14 @@ public class Division {
             System.out.println("Excepción capturada: " + e.getMessage());
         } finally {
             sc.close();
+        }
+
+        // Meza José - ClassNotFoundException
+        try {
+            Class.forName("com.example.NonExistentClass");
+            System.out.println("Clase encontrada");
+        } catch (ClassNotFoundException e) {
+            System.out.println("Clase no encontrada");
         }
 
     }
