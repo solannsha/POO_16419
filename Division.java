@@ -84,6 +84,19 @@ public class Division {
         } finally {
             sc.close();
         }
+        // André Uribe - IllegalStateException
+        try {
+            System.out.println("Ingrese un estado: ");
+            String estado = sc.nextLine();
+            if (estado.equals("inapropiado")) {
+                throw new IllegalStateException("Estado inapropiado");
+            }
+            System.out.println("El estado es apropiado");
+        } catch (IllegalStateException e) {
+            System.out.println("Excepción capturada: " + e.getMessage());
+        } finally {
+            sc.close();
+        }
 
     }
 }
